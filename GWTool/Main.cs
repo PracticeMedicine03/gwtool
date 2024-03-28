@@ -149,11 +149,12 @@ namespace GWTool
             // 
             this.lblInfo.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblInfo.AutoSize = true;
-            this.lblInfo.Location = new System.Drawing.Point(35, 65);
+            this.lblInfo.Location = new System.Drawing.Point(21, 69);
             this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(143, 26);
+            this.lblInfo.Size = new System.Drawing.Size(175, 39);
             this.lblInfo.TabIndex = 0;
-            this.lblInfo.Text = "Drop an addon file anywhere\r\non this window to extract it";
+            this.lblInfo.Text = "Drop an addon file anywhere\r\non this window to extract it\nor press the Open GMAD " +
+    "file button";
             this.lblInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblResult
